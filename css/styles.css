@@ -2,6 +2,7 @@ body {
     background-color: #e0ebe8;
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 hr {
     background-color: rgba(34, 250, 254, 0);
@@ -11,35 +12,41 @@ hr {
     width: 8%;
 }
 h1 {
-    margin: 0 auto 0 auto;
+    margin: 50px auto 0 auto;
     color: #45b29a;
-    font-family: Cursive;
-    width: 5%;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+}
+
+h2 {
+    color: #64b0a0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat Alternates', sans-serif;
     
 }
+
+a {
+    color: #11999E;
+}
+
 p {
-    font-family: Cursive;
     color: gray;
 }
 
 
 .top-container {
-    background-color: rgb(167, 246, 220);
+    background-color: rgb(206, 248, 234);
     position: relative;
     padding-top: 100px;
 }
 
-.mid-container {
-    background-color: aqua;
-    height: 200px;
-    width: 200px;
-}
 
-.bottom-container {
-    background-color: azure;
-    width: 200px;
-    height: 200px;
-}
 
 .bottom-cloud {
     position: absolute;
